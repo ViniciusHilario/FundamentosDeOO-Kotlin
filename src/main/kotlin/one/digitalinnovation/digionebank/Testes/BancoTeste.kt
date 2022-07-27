@@ -1,6 +1,4 @@
-package Testes
-
-import one.digitalinnovation.digionebank.Banco
+package one.digitalinnovation.digionebank
 
 //Função main para testar a data class Banco
 fun main(){
