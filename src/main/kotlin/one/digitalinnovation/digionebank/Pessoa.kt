@@ -6,12 +6,8 @@ class Pessoa {
     var nome:String = "Vinicius"
     var cpf:String = "123.123.123-12"
 
-    // Criando uma Classe Interna
-    inner class Endereco() {
-
-        var rua:String = "Rua Teste"
-
-    }
+    //privando só o SET
+    private set
 
 }
 
@@ -22,7 +18,5 @@ fun main(){
 
     println("Nome: " + vinicius.nome)
     println("CPF: " + vinicius.cpf)
-
-    println("Rua: " + vinicius.Endereco().rua)
 
 }
