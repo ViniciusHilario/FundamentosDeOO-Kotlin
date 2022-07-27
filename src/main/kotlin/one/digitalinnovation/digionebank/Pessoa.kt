@@ -9,6 +9,12 @@ class Pessoa {
     //privando só o SET
     private set
 
+    //Construtor secundario
+    constructor()
+
+    //funcao usando interpolação
+    fun pessoaInfo() = "$nome e $cpf"
+
 }
 
 //Função main para fazer um teste rápido
@@ -16,7 +22,6 @@ class Pessoa {
 fun main(){
     val vinicius = Pessoa()
 
-    println("Nome: " + vinicius.nome)
-    println("CPF: " + vinicius.cpf)
+    println(vinicius.pessoaInfo())
 
 }
